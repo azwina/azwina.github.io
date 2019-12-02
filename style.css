@@ -1,0 +1,141 @@
+/* Navbar */
+.navbar-brand{
+    font-family: Viga;
+    font-size: 32px;
+    color: white !important;
+}
+
+.nav-link{
+    margin-right:15px;
+    color: white !important;
+}
+
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid blue;
+    margin-bottom: -3px;
+}
+
+/* Jumbotron */
+.jumbo{
+    background-image: url(img/web-bg.jpeg);
+    background-size: cover;
+    height: 640px;
+    margin-top: -85px;
+
+}
+
+.jumbotron-display{
+    background: rgba(156, 60, 5, 0.767);
+    margin-top: -60px;
+    height: 637px;
+    margin-bottom: auto;
+}
+
+.jumbo-text{
+    color: white !important;
+    text-align: left;
+    padding-top: 300px;
+    padding-left: 130px;
+}
+
+/* Button Hello */
+.hello{
+    font-size: 32px;
+    background-color:white;
+    border-radius: 12px;
+    ;
+}
+
+/* Icon */
+.icon{
+    display: inline-block;
+    border: 1px white solid;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+.fab{
+    font-size: 24px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.twit{
+    font-size: 24px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.field{
+    margin-top: 80px;
+}
+
+
+.image{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.btn{
+    margin-top: 20px;
+    border-radius: 40px;
+    background: coral;
+}
+
+.icon2{
+    margin-top: 50px;
+}
+
+.jumbojumbo{
+    margin-top: -70px;
+    background: transparent;
+}
+
+.h3{
+    color: blue;
+    margin-top: 20px;
+}
+
+.btnbtn{
+    margin-top: 5px;
+    border-radius: 40px;
+    background: coral;
+    border-color: aliceblue;
+    margin-left: 450px;
+    
+}
+
+.services{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 430px;
+    margin-bottom: 20px;
+}
+
+.icon-bottom{
+    font-size: 50px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    color: chocolate;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-font{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
